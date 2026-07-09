@@ -1,6 +1,6 @@
 # Neural Networks from First Principles
 
-Java implementation work from **ATCS Neural Networks** at The Harker School, taught by Dr. Eric R. Nelson during the 2025-2026 school year.
+Java implementation work from **ATCS Neural Networks** at The Harker School, taught by Dr. Eric R. Nelson in Spring 2026.
 
 This project builds a neural-network framework from the ground up rather than relying on a machine-learning library. It starts with small Boolean classification experiments such as XOR, then extends the same feed-forward/backpropagation framework to image-recognition data prepared from BMP/hand-image inputs.
 
@@ -20,6 +20,8 @@ Course: **ATCS Neural Networks**
 School: **The Harker School**
 
 Instructor: **Dr. Eric R. Nelson**
+
+Term: **Spring 2026**
 
 This course covered parallel distributed processing, perceptrons, nonlinear classifiers, gradient descent, backpropagation, fully connected feed-forward networks, and image pattern recognition. This repository reflects that progression through XOR experiments, a generalized neural-network framework, BMP/image preprocessing tools, and a final image-recognition workflow.
 
