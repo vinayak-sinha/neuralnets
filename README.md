@@ -72,6 +72,28 @@ java -cp target/classes com.vinayak.Network control.txt
 
 Use `imageTrainingControl.txt` to train with the packed image dataset and `imageTestingControl.txt` to run inference from saved weights.
 
+## Creating New Experiments
+
+The network is driven by plain-text control files, so new experiments can be created without changing Java code. A control file defines:
+
+- the network shape: `inputSize`, `hiddenSizes`, `outputSize`, and `numActivationLayers`
+- training settings: learning rate, random weight bounds, maximum iterations, error threshold, and progress interval
+- runtime behavior: whether to train, run test cases, print inputs, save weights, or load existing weights
+- file paths for binary inputs, truth tables, loaded weights, and saved weights
+- the number of test/training cases to read from the dataset
+
+To create a new run, copy an existing file such as `control.txt` or `imageTestingControl.txt`, rename it, and adjust the values for the dataset and architecture you want to test.
+
+Example:
+
+```bash
+cp control.txt myExperimentControl.txt
+mvn compile
+java -cp target/classes com.vinayak.Network myExperimentControl.txt
+```
+
+For small Boolean experiments, create matching binary input and truth-table files in the same format used by `basicBinaryInputs.bin` and `basicBinaryTruthAOX.bin`. For image experiments, use the utilities in `src/main/java/com/vinayak/bitmapconversion/` to convert images into activation data, pack examples into a dataset, and generate the corresponding truth table.
+
 ## Notes
 
 - The project intentionally includes small binary datasets and saved weights so reviewers can see the full course pipeline, not only the Java source.
