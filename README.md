@@ -15,9 +15,13 @@ This project builds a neural-network framework from the ground up rather than re
 
 ## Course Context
 
-Harker's public computer science coverage describes the neural networks course as a semester-long advanced topics class where students create a basic multilayer perceptron and learn how pattern classifiers work below the black-box level. The attached 2025-2026 syllabus emphasizes parallel distributed processing, perceptrons, nonlinear classifiers, Widrow-Hoff/gradient-descent learning, backpropagation, feed-forward networks, BMP image processing, and final image pattern recognition.
+Course: **ATCS Neural Networks**
 
-This repository reflects that progression: small networks first, then a generalized network architecture, then image data preparation and classification.
+School: **The Harker School**
+
+Instructor: **Dr. Eric R. Nelson**
+
+This course covered parallel distributed processing, perceptrons, nonlinear classifiers, gradient descent, backpropagation, fully connected feed-forward networks, and image pattern recognition. This repository reflects that progression through XOR experiments, a generalized neural-network framework, BMP/image preprocessing tools, and a final image-recognition workflow.
 
 ## Project Structure
 
