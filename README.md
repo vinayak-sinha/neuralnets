@@ -19,11 +19,6 @@ Harker's public computer science coverage describes the neural networks course a
 
 This repository reflects that progression: small networks first, then a generalized network architecture, then image data preparation and classification.
 
-Sources:
-
-- The Harker School News, ["Creating tomorrow's innovators: Harker inspires with deep computer science offerings"](https://news.harker.org/creating-tomorrows-innovators-harker-inspires-with-deep-computer-science-offerings/)
-- Dr. Eric R. Nelson, **ATCS Neural Networks 2025/2026** syllabus
-
 ## Project Structure
 
 ```text
