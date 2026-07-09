@@ -1,0 +1,29 @@
+# Network shape
+numActivationLayers = 5
+inputSize=2
+hiddenSizes= 10 7 9
+outputSize=3
+
+# Training hyperparameters
+randLowerBound=-1.5
+randUpperBound=1.5
+learningRate=0.3
+maxIterations=100000
+errorThreshold=0.0002
+keepAlive=0
+
+# Runtime behavior
+training=true
+runningTestCases=true
+saveWeights=false
+printInputs=true
+weightInputChoice=random
+
+# File names
+trainingDataFileName=basicBinaryInputs.bin
+truthTableFileName=basicBinaryTruthAOX.bin
+loadFileName=weights.bin
+saveFileName=fiveLayer.bin
+
+# Dataset size
+numTestCases=4

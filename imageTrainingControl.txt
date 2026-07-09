@@ -1,0 +1,29 @@
+# Network shape
+numActivationLayers = 4
+inputSize=65536
+hiddenSizes=25 10
+outputSize=5
+
+# Training hyperparameters
+randLowerBound=-0.1
+randUpperBound=0.1
+learningRate=0.03
+maxIterations=100000
+errorThreshold=0.0002
+keepAlive=100
+
+# Runtime behavior
+training=false
+runningTestCases=true
+saveWeights=false
+printInputs=false
+weightInputChoice=load
+
+# File names
+trainingDataFileName=trainingImages.bin
+truthTableFileName=imageTruth.bin
+loadFileName=imageWeights.bin
+saveFileName=imageWeights.bin
+
+# Dataset size
+numTestCases=25

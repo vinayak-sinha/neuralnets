@@ -1,0 +1,14 @@
+.DS_Store
+.vscode/
+target/
+*.class
+
+# Local/generated helper state
+.tmp_train_acts/
+.github/java-upgrade/
+
+# Large run logs that can be regenerated
+trainingHistory.txt
+
+# Keep generated model/data artifacts intentionally tracked unless they are
+# moved to Git LFS later.
